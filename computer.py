@@ -149,6 +149,7 @@ def getValuesNearMemAddress(s: str):
     return vals
 
 
+# use this to manually set memory addresses to a given value.
 def setMemoryAddress(memory, addr: int, value: int, useFast: bool):
     if not useFast:
         memory.mem.ram[addr] = Bus(padded_binary(value))
@@ -160,7 +161,6 @@ def setMemoryAddress(memory, addr: int, value: int, useFast: bool):
         b = [True if i == '1' else False for i in s[::-1]]
         b.append(oneExists)
         memory[addr] = b[:]
-
 
 def drawPixel(x, y):
     pygame.draw.rect(disp, BLACK, (x, y, 1, 1))
