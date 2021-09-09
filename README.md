@@ -8,9 +8,9 @@ Inspired by the HACK computer (https://www.nand2tetris.org/), and uses its instr
 
 Use the included assembler to write your own programs and execute them.
 
-Programs included: (which can also be found at https://www.nand2tetris.org/software)
-Add.hack- Computes 2+3, and stores it in RAM[0].
-mult.hack- Computes the product of RAM[0] and RAM[1] and stores it in RAM[3].
-Rect.hack- Draws a 16(width)xRAM[0](height) rectangle.
-test.hack- Computes 10 + 20 + 100, and stores it in RAM[0,1,2].
+Programs included: (which can also be found at https://www.nand2tetris.org/software)\n
+Add.hack- Computes 2+3, and stores it in RAM[0].\n
+mult.hack- Computes the product of RAM[0] and RAM[1] and stores it in RAM[3].\n
+Rect.hack- Draws a 16(width)xRAM[0](height) rectangle.\n
+test.hack- Computes 10 + 20 + 100, and stores it in RAM[0,1,2].\n
 
