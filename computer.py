@@ -6,8 +6,16 @@ from debug_functions import padded_binary, getCurrentKeyName, getKeyCode
 import pygame
 import math
 
-# make this true to use a faster CPU, but one that is less accurate to real life. kinda buggy
+
+
+
+# SET THIS TO TRUE TO USE A FASTER CPU, BUT ONE THATS LESS ACCURATE TO A REAL ONE. kinda buggy
 useFast = False
+
+
+
+
+
 runtime = time.time()
 # Setting up input and output pins
 print('Initializing starting circuits')
@@ -149,7 +157,7 @@ def getValuesNearMemAddress(s: str):
     return vals
 
 
-# use this to manually set memory addresses to a given value.
+# USE THIS TO MANUALLY SET MEMORY ADDRESSES TO A GIVEN VALUE
 def setMemoryAddress(memory, addr: int, value: int, useFast: bool):
     if not useFast:
         memory.mem.ram[addr] = Bus(padded_binary(value))
