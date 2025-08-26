@@ -6,7 +6,7 @@ instruction memory (2^15 16-bit words), a 512x256 screen with its own dedicated 
 
 Also includes a GUI (rendered using the pygame library) to see memory locations change in real time, the current instruction, the program counter, the screen, and to set the speed of the CPU.
 
-Inspired by the HACK computer (https://www.nand2tetris.org/), and uses its instruction set and assembly language.
+Inspired by the HACK computer (https://www.nand2tetris.org/), and uses a modified (expanded) version of its architecture.
 
 Use the included assembler to write your own programs and execute them.
 
